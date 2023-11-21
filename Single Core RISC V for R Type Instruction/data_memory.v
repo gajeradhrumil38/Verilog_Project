@@ -8,12 +8,7 @@ module data_mem (
 );
     
     reg [31:0] data_array [1023:0] ;
-    // assign rd = (we == 1'b0) ? data_array[A] : 32'h00000000;
 
-    // always @(posedge clk ) begin
-    //     if(we == 1'b1)
-    //     data_array[A] <= WD; 
-    // end 
 
     always @ (posedge clk)
     begin
