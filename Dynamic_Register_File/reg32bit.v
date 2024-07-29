@@ -1,7 +1,7 @@
 module regfile #(
 
-    parameter B = 8,  // number of bits
-    w = 2  // number of address
+    parameter B = 16,  // number of bits
+    w = 4  // number of address
 ) (
 
     input wire clk,
